@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Megrim&display=swap');
+
+
+h1,h2{
+    font-family: 'Megrim', cursive, "sans-serif";
+}
+
+
+p{
+    font-family: fantasy;
+}
+
+button {
+
+    display: inline-block;
+    background-color: #008080;
+    border-radius: 8px;
+    /* border: 4px double #cccccc; */
+    color: #eeeeee;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 90px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+button:hover {
+    background-color: #708090;
+}

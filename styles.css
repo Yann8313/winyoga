@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Megrim&display=swap');
+
+
+h1,h2{
+    font-family: 'Megrim', cursive, "sans-serif";
+}
+
+
+p{
+    font-family: fantasy;
+}
+
+
+.test {
+    /* margin-top: 50px; */
+    color: #f5efeb;
+    height: 70vh;
+    background: url(./img/yoga-sl.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.main-content {
+    font-family: fantasy;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background: #faf8f5;
+    font-family: 'Major Mono Display', monospace;
+    overflow: auto;
+}
+
+.main-content h1 ,h2{
+    margin: 0 auto;
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+   
+}
+
+.active {
+    background-color: #008080;
+   color: rgb(238, 238, 238);
+   -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+   transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+.example {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+img {
+    width: 70%;
+}
+
+
+.content {
+    color: #008080;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+
+    display: inline-block;
+    background-color: #008080;
+    border-radius: 8px;
+    /* border: 4px double #cccccc; */
+    color: #eeeeee;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 90px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+button:hover {
+    background-color: #708090;
+}
+
+.main-content1 {
+    
+
+    font-family: 'Major Mono Display', monospace;
+
+    color: #;
+}
+
+
+
+.footer {
+    height: 10vh;
+    border: 2px solid #8e8e92;
+
+}
